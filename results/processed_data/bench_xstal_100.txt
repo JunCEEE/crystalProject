@@ -1,0 +1,13 @@
+initializing ocelot...
+
+WARNING: esther_execute could not be imported. This is most probably due to Esther not being installed or not found. Expect RunTimeErrors when attempting to run the EstherPhotonMatterInteractor.backengine().
+Checking presence of 3WUL.pdb. Will query from PDB if not found in $PWD.
+Sample path is set to 3WUL.pdb.
+['pattern_sim', '-p3WUL.pdb', '--geometry=/tmp/tmpw14st9cp.geom', '--output=/gpfs/exfel/data/user/juncheng/crystalProject/data/simulation/xstal/xstal100/diffr_out', '--number=5', '--random-orientation', '--really-random', '--photon-energy=4972.000000', '--beam-bandwidth=0.003000', '--nphotons=1.255332e+14', '--beam-radius=6.500000e-08', '--spectrum=tophat']
+Renaming diffr_out-1.h5 to diffr_out_0000001.h5.
+Renaming diffr_out-2.h5 to diffr_out_0000002.h5.
+Renaming diffr_out-3.h5 to diffr_out_0000003.h5.
+Renaming diffr_out-4.h5 to diffr_out_0000004.h5.
+Renaming diffr_out-5.h5 to diffr_out_0000005.h5.
+Linking all patterns into /gpfs/exfel/data/user/juncheng/crystalProject/data/simulation/xstal/xstal100.h5.
+70.24781817384064
