@@ -1,6 +1,6 @@
 adu_per_eV = 1.0  ; no idea
 clen = 0.13
-photon_energy = 4970
+;photon_energy = 4970
 res = 4545
 
 dim0 = ss

@@ -3,7 +3,7 @@ import os,shutil
 from SimEx import *
 
 data_path = '../../../data/simulation/'
-out_path = "xstal/xstal_diffr_test"
+out_path = "xstal/xstal_diffr100"
 # Remove previous results
 shutil.rmtree(data_path+out_path,True)
 os.chdir(data_path)
@@ -12,7 +12,7 @@ os.getcwd()
 beamParam = PhotonBeamParameters(
     photon_energy = 4972.0 * electronvolt,  # photon energy in eV
     beam_diameter_fwhm=130e-9 * meter,      # focus diameter in m
-    pulse_energy=45e-3 * joule,           # pulse energy in J
+    pulse_energy=100e-3 * joule,           # pulse energy in J
     photon_energy_relative_bandwidth=0.003, # relative bandwidth dE/E
     divergence=0.0 * radian,                # Beam divergence in rad
     photon_energy_spectrum_type='tophat',   # Spectrum type. Acceptable values are "tophat", "SASE", and "twocolor")
@@ -21,7 +21,7 @@ beamParam = PhotonBeamParameters(
 diffParam = CrystFELPhotonDiffractorParameters(
     sample='3WUL.pdb',                    # Looks up pdb file in cwd, if not found, queries from RCSB pdb mirror.
     uniform_rotation=True,                # Apply random rotation
-    number_of_diffraction_patterns=5,     #
+    number_of_diffraction_patterns=100,     #
     powder=False,                         # Set to True to create a virtual powder diffraction pattern (unested)
     intensities_file=None,                # File that contains reflection intensities. If set to none, use uniform intensity distribution
     crystal_size_range=[1e-7,1e-7],       # Range ([min,max]) in units of metres of crystal size.
@@ -37,5 +37,10 @@ diffractor = CrystFELPhotonDiffractor(
     output_path=out_path)
 
 
+start = timer()
+
 diffractor.backengine()
 diffractor.saveH5()
+end = timer()
+
+print(end - start)

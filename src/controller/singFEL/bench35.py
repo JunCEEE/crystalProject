@@ -8,7 +8,7 @@ prop_path = 'prop/prop_out_9fs_5keV_from_CHY.h5'
 os.chdir(data_path)
 os.getcwd()
 
-diff_out = 'diffrTest'
+diff_out = 'diffr35'
 dirs_to_remove=[diff_out]
 files_to_remove=[diff_out+'.h5']
 for d in dirs_to_remove:
@@ -23,7 +23,7 @@ panel = DetectorPanel(ranges={"fast_scan_min" : 0, "fast_scan_max" : 999,
                       pixel_size=220.0e-6*meter,
                       energy_response=1.0/electronvolt,
                       distance_from_interaction_plane=0.13*meter,
-                      corners={"x" : -500, "y": -500},
+                      corners={"x" : -350, "y": -350},
                       saturation_adu=1.e6,
                       )
 
@@ -34,9 +34,10 @@ diffraction_parameters = SingFELPhotonDiffractorParameters(
                                                calculate_Compton=True,
                                                slice_interval=100,
                                                number_of_slices=100,
-                                               number_of_diffraction_patterns=5,
+                                               number_of_diffraction_patterns=35,
                                                detector_geometry=detector_geometry,
                                                #forced_mpi_command='mpirun --use-hwthread-cpus',
+                                               #forced_mpi_command='mpirun -np 35',
                                                #forced_mpi_command='mpirun -np 1',
                                               )
 
