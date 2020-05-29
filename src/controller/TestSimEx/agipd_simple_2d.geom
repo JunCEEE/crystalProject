@@ -12,13 +12,13 @@ dim0 = %
 res = 5000.0 ; pixels per metre
 
 ; Beam energy in eV
-; photon_energy = SET ME
+photon_energy = 9300
 
 ; Camera length, aka detector distance
-; clen = SET ME
+clen = 0.1249
 
 ; Analogue Digital Units per eV
-; adu_per_eV = SET ME
+adu_per_eV = 0.0075  ; no idea
 
 rigid_group_q0 = p0a0,p0a1,p0a2,p0a3,p0a4,p0a5,p0a6,p0a7,p1a0,p1a1,p1a2,p1a3,p1a4,p1a5,p1a6,p1a7,p2a0,p2a1,p2a2,p2a3,p2a4,p2a5,p2a6,p2a7,p3a0,p3a1,p3a2,p3a3,p3a4,p3a5,p3a6,p3a7
 rigid_group_q1 = p4a0,p4a1,p4a2,p4a3,p4a4,p4a5,p4a6,p4a7,p5a0,p5a1,p5a2,p5a3,p5a4,p5a5,p5a6,p5a7,p6a0,p6a1,p6a2,p6a3,p6a4,p6a5,p6a6,p6a7,p7a0,p7a1,p7a2,p7a3,p7a4,p7a5,p7a6,p7a7
