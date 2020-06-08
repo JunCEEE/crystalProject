@@ -3,8 +3,8 @@
 import os
 from subprocess import run, PIPE
 
-def load(*args):
-    cmd = ['modulecmd', 'python', 'load'] + list(args)
+def _modulecmd(*args):
+    cmd = ['modulecmd', 'python'] + list(args)
     res = run(cmd, stdout=PIPE, stderr=PIPE)
     txt = res.stderr.decode('utf-8', 'replace').strip()
     if txt:
@@ -15,3 +15,9 @@ def load(*args):
     code = res.stdout.decode('utf-8').strip()
     if code:
         exec(code, {'os': os})
+
+def load(*args):
+    _modulecmd('load', *args)
+
+def unload(*args):
+    _modulecmd('unload', *args)
