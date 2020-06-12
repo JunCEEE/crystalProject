@@ -138,7 +138,7 @@ p0a7/max_fs = 127
 p0a7/max_ss = 511
 p0a7/fs = +0.0x -1.0y
 p0a7/ss = +1.0x +0.0y
-p0a7/corner_x = -63.00000000000006
+p0a7/corner_x = -63.000000000000064
 p0a7/corner_y = 625.0
 p0a7/coffset = 0.0
 
@@ -234,7 +234,7 @@ p1a7/max_fs = 127
 p1a7/max_ss = 1023
 p1a7/fs = +0.0x -1.0y
 p1a7/ss = +1.0x +0.0y
-p1a7/corner_x = -63.00000000000006
+p1a7/corner_x = -63.000000000000064
 p1a7/corner_y = 467.99999999999994
 p1a7/coffset = 0.0
 
@@ -330,7 +330,7 @@ p2a7/max_fs = 127
 p2a7/max_ss = 1535
 p2a7/fs = +0.0x -1.0y
 p2a7/ss = +1.0x +0.0y
-p2a7/corner_x = -63.00000000000006
+p2a7/corner_x = -63.000000000000064
 p2a7/corner_y = 310.99999999999994
 p2a7/coffset = 0.0
 
@@ -426,7 +426,7 @@ p3a7/max_fs = 127
 p3a7/max_ss = 2047
 p3a7/fs = +0.0x -1.0y
 p3a7/ss = +1.0x +0.0y
-p3a7/corner_x = -63.00000000000006
+p3a7/corner_x = -63.000000000000064
 p3a7/corner_y = 153.99999999999997
 p3a7/coffset = 0.0
 
@@ -450,7 +450,7 @@ p4a1/max_fs = 127
 p4a1/max_ss = 2175
 p4a1/fs = +0.0x -1.0y
 p4a1/ss = +1.0x +0.0y
-p4a1/corner_x = -483.9999999999999
+p4a1/corner_x = -483.99999999999994
 p4a1/corner_y = -10.0
 p4a1/coffset = 0.0
 
@@ -462,7 +462,7 @@ p4a2/max_fs = 127
 p4a2/max_ss = 2239
 p4a2/fs = +0.0x -1.0y
 p4a2/ss = +1.0x +0.0y
-p4a2/corner_x = -417.99999999999994
+p4a2/corner_x = -418.0
 p4a2/corner_y = -10.0
 p4a2/coffset = 0.0
 
@@ -546,7 +546,7 @@ p5a1/max_fs = 127
 p5a1/max_ss = 2687
 p5a1/fs = +0.0x -1.0y
 p5a1/ss = +1.0x +0.0y
-p5a1/corner_x = -483.9999999999999
+p5a1/corner_x = -483.99999999999994
 p5a1/corner_y = -167.00000000000003
 p5a1/coffset = 0.0
 
@@ -558,7 +558,7 @@ p5a2/max_fs = 127
 p5a2/max_ss = 2751
 p5a2/fs = +0.0x -1.0y
 p5a2/ss = +1.0x +0.0y
-p5a2/corner_x = -417.99999999999994
+p5a2/corner_x = -418.0
 p5a2/corner_y = -167.00000000000003
 p5a2/coffset = 0.0
 
@@ -642,7 +642,7 @@ p6a1/max_fs = 127
 p6a1/max_ss = 3199
 p6a1/fs = +0.0x -1.0y
 p6a1/ss = +1.0x +0.0y
-p6a1/corner_x = -483.9999999999999
+p6a1/corner_x = -483.99999999999994
 p6a1/corner_y = -324.00000000000006
 p6a1/coffset = 0.0
 
@@ -654,7 +654,7 @@ p6a2/max_fs = 127
 p6a2/max_ss = 3263
 p6a2/fs = +0.0x -1.0y
 p6a2/ss = +1.0x +0.0y
-p6a2/corner_x = -417.99999999999994
+p6a2/corner_x = -418.0
 p6a2/corner_y = -324.00000000000006
 p6a2/coffset = 0.0
 
@@ -727,7 +727,7 @@ p7a0/max_ss = 3647
 p7a0/fs = +0.0x -1.0y
 p7a0/ss = +1.0x +0.0y
 p7a0/corner_x = -550.0
-p7a0/corner_y = -480.99999999999994
+p7a0/corner_y = -481.0
 p7a0/coffset = 0.0
 
 p7a1/dim1 = ss
@@ -738,8 +738,8 @@ p7a1/max_fs = 127
 p7a1/max_ss = 3711
 p7a1/fs = +0.0x -1.0y
 p7a1/ss = +1.0x +0.0y
-p7a1/corner_x = -483.9999999999999
-p7a1/corner_y = -480.99999999999994
+p7a1/corner_x = -483.99999999999994
+p7a1/corner_y = -481.0
 p7a1/coffset = 0.0
 
 p7a2/dim1 = ss
@@ -750,8 +750,8 @@ p7a2/max_fs = 127
 p7a2/max_ss = 3775
 p7a2/fs = +0.0x -1.0y
 p7a2/ss = +1.0x +0.0y
-p7a2/corner_x = -417.99999999999994
-p7a2/corner_y = -480.99999999999994
+p7a2/corner_x = -418.0
+p7a2/corner_y = -481.0
 p7a2/coffset = 0.0
 
 p7a3/dim1 = ss
@@ -763,7 +763,7 @@ p7a3/max_ss = 3839
 p7a3/fs = +0.0x -1.0y
 p7a3/ss = +1.0x +0.0y
 p7a3/corner_x = -352.0
-p7a3/corner_y = -480.99999999999994
+p7a3/corner_y = -481.0
 p7a3/coffset = 0.0
 
 p7a4/dim1 = ss
@@ -775,7 +775,7 @@ p7a4/max_ss = 3903
 p7a4/fs = +0.0x -1.0y
 p7a4/ss = +1.0x +0.0y
 p7a4/corner_x = -286.0
-p7a4/corner_y = -480.99999999999994
+p7a4/corner_y = -481.0
 p7a4/coffset = 0.0
 
 p7a5/dim1 = ss
@@ -787,7 +787,7 @@ p7a5/max_ss = 3967
 p7a5/fs = +0.0x -1.0y
 p7a5/ss = +1.0x +0.0y
 p7a5/corner_x = -219.99999999999997
-p7a5/corner_y = -480.99999999999994
+p7a5/corner_y = -481.0
 p7a5/coffset = 0.0
 
 p7a6/dim1 = ss
@@ -799,7 +799,7 @@ p7a6/max_ss = 4031
 p7a6/fs = +0.0x -1.0y
 p7a6/ss = +1.0x +0.0y
 p7a6/corner_x = -154.00000000000003
-p7a6/corner_y = -480.99999999999994
+p7a6/corner_y = -481.0
 p7a6/coffset = 0.0
 
 p7a7/dim1 = ss
@@ -811,7 +811,7 @@ p7a7/max_ss = 4095
 p7a7/fs = +0.0x -1.0y
 p7a7/ss = +1.0x +0.0y
 p7a7/corner_x = -88.00000000000001
-p7a7/corner_y = -480.99999999999994
+p7a7/corner_y = -481.0
 p7a7/coffset = 0.0
 
 p8a0/dim1 = ss
@@ -894,7 +894,7 @@ p8a6/max_fs = 127
 p8a6/max_ss = 4543
 p8a6/fs = +0.0x +1.0y
 p8a6/ss = -1.0x +0.0y
-p8a6/corner_x = 124.00000000000006
+p8a6/corner_x = 124.00000000000007
 p8a6/corner_y = -160.0
 p8a6/coffset = 0.0
 
@@ -990,7 +990,7 @@ p9a6/max_fs = 127
 p9a6/max_ss = 5055
 p9a6/fs = +0.0x +1.0y
 p9a6/ss = -1.0x +0.0y
-p9a6/corner_x = 124.00000000000006
+p9a6/corner_x = 124.00000000000007
 p9a6/corner_y = -317.00000000000006
 p9a6/coffset = 0.0
 
@@ -1015,7 +1015,7 @@ p10a0/max_ss = 5183
 p10a0/fs = +0.0x +1.0y
 p10a0/ss = -1.0x +0.0y
 p10a0/corner_x = 520.0
-p10a0/corner_y = -473.99999999999994
+p10a0/corner_y = -474.0
 p10a0/coffset = 0.0
 
 p10a1/dim1 = ss
@@ -1027,7 +1027,7 @@ p10a1/max_ss = 5247
 p10a1/fs = +0.0x +1.0y
 p10a1/ss = -1.0x +0.0y
 p10a1/corner_x = 454.0
-p10a1/corner_y = -473.99999999999994
+p10a1/corner_y = -474.0
 p10a1/coffset = 0.0
 
 p10a2/dim1 = ss
@@ -1039,7 +1039,7 @@ p10a2/max_ss = 5311
 p10a2/fs = +0.0x +1.0y
 p10a2/ss = -1.0x +0.0y
 p10a2/corner_x = 388.0
-p10a2/corner_y = -473.99999999999994
+p10a2/corner_y = -474.0
 p10a2/coffset = 0.0
 
 p10a3/dim1 = ss
@@ -1051,7 +1051,7 @@ p10a3/max_ss = 5375
 p10a3/fs = +0.0x +1.0y
 p10a3/ss = -1.0x +0.0y
 p10a3/corner_x = 322.00000000000006
-p10a3/corner_y = -473.99999999999994
+p10a3/corner_y = -474.0
 p10a3/coffset = 0.0
 
 p10a4/dim1 = ss
@@ -1063,7 +1063,7 @@ p10a4/max_ss = 5439
 p10a4/fs = +0.0x +1.0y
 p10a4/ss = -1.0x +0.0y
 p10a4/corner_x = 256.00000000000006
-p10a4/corner_y = -473.99999999999994
+p10a4/corner_y = -474.0
 p10a4/coffset = 0.0
 
 p10a5/dim1 = ss
@@ -1075,7 +1075,7 @@ p10a5/max_ss = 5503
 p10a5/fs = +0.0x +1.0y
 p10a5/ss = -1.0x +0.0y
 p10a5/corner_x = 190.00000000000003
-p10a5/corner_y = -473.99999999999994
+p10a5/corner_y = -474.0
 p10a5/coffset = 0.0
 
 p10a6/dim1 = ss
@@ -1086,8 +1086,8 @@ p10a6/max_fs = 127
 p10a6/max_ss = 5567
 p10a6/fs = +0.0x +1.0y
 p10a6/ss = -1.0x +0.0y
-p10a6/corner_x = 124.00000000000006
-p10a6/corner_y = -473.99999999999994
+p10a6/corner_x = 124.00000000000007
+p10a6/corner_y = -474.0
 p10a6/coffset = 0.0
 
 p10a7/dim1 = ss
@@ -1099,7 +1099,7 @@ p10a7/max_ss = 5631
 p10a7/fs = +0.0x +1.0y
 p10a7/ss = -1.0x +0.0y
 p10a7/corner_x = 58.000000000000064
-p10a7/corner_y = -473.99999999999994
+p10a7/corner_y = -474.0
 p10a7/coffset = 0.0
 
 p11a0/dim1 = ss
@@ -1182,7 +1182,7 @@ p11a6/max_fs = 127
 p11a6/max_ss = 6079
 p11a6/fs = +0.0x +1.0y
 p11a6/ss = -1.0x +0.0y
-p11a6/corner_x = 124.00000000000006
+p11a6/corner_x = 124.00000000000007
 p11a6/corner_y = -631.0
 p11a6/coffset = 0.0
 
@@ -1218,7 +1218,7 @@ p12a1/max_fs = 127
 p12a1/max_ss = 6271
 p12a1/fs = +0.0x +1.0y
 p12a1/ss = -1.0x +0.0y
-p12a1/corner_x = 476.4999999999999
+p12a1/corner_x = 476.49999999999994
 p12a1/corner_y = 475.0
 p12a1/coffset = 0.0
 
@@ -1314,7 +1314,7 @@ p13a1/max_fs = 127
 p13a1/max_ss = 6783
 p13a1/fs = +0.0x +1.0y
 p13a1/ss = -1.0x +0.0y
-p13a1/corner_x = 476.4999999999999
+p13a1/corner_x = 476.49999999999994
 p13a1/corner_y = 317.99999999999994
 p13a1/coffset = 0.0
 
@@ -1399,7 +1399,7 @@ p14a0/max_ss = 7231
 p14a0/fs = +0.0x +1.0y
 p14a0/ss = -1.0x +0.0y
 p14a0/corner_x = 542.5
-p14a0/corner_y = 160.99999999999991
+p14a0/corner_y = 160.99999999999994
 p14a0/coffset = 0.0
 
 p14a1/dim1 = ss
@@ -1410,8 +1410,8 @@ p14a1/max_fs = 127
 p14a1/max_ss = 7295
 p14a1/fs = +0.0x +1.0y
 p14a1/ss = -1.0x +0.0y
-p14a1/corner_x = 476.4999999999999
-p14a1/corner_y = 160.99999999999991
+p14a1/corner_x = 476.49999999999994
+p14a1/corner_y = 160.99999999999994
 p14a1/coffset = 0.0
 
 p14a2/dim1 = ss
@@ -1423,7 +1423,7 @@ p14a2/max_ss = 7359
 p14a2/fs = +0.0x +1.0y
 p14a2/ss = -1.0x +0.0y
 p14a2/corner_x = 410.5
-p14a2/corner_y = 160.99999999999991
+p14a2/corner_y = 160.99999999999994
 p14a2/coffset = 0.0
 
 p14a3/dim1 = ss
@@ -1435,7 +1435,7 @@ p14a3/max_ss = 7423
 p14a3/fs = +0.0x +1.0y
 p14a3/ss = -1.0x +0.0y
 p14a3/corner_x = 344.5
-p14a3/corner_y = 160.99999999999991
+p14a3/corner_y = 160.99999999999994
 p14a3/coffset = 0.0
 
 p14a4/dim1 = ss
@@ -1447,7 +1447,7 @@ p14a4/max_ss = 7487
 p14a4/fs = +0.0x +1.0y
 p14a4/ss = -1.0x +0.0y
 p14a4/corner_x = 278.5
-p14a4/corner_y = 160.99999999999991
+p14a4/corner_y = 160.99999999999994
 p14a4/coffset = 0.0
 
 p14a5/dim1 = ss
@@ -1459,7 +1459,7 @@ p14a5/max_ss = 7551
 p14a5/fs = +0.0x +1.0y
 p14a5/ss = -1.0x +0.0y
 p14a5/corner_x = 212.49999999999997
-p14a5/corner_y = 160.99999999999991
+p14a5/corner_y = 160.99999999999994
 p14a5/coffset = 0.0
 
 p14a6/dim1 = ss
@@ -1471,7 +1471,7 @@ p14a6/max_ss = 7615
 p14a6/fs = +0.0x +1.0y
 p14a6/ss = -1.0x +0.0y
 p14a6/corner_x = 146.50000000000003
-p14a6/corner_y = 160.99999999999991
+p14a6/corner_y = 160.99999999999994
 p14a6/coffset = 0.0
 
 p14a7/dim1 = ss
@@ -1483,7 +1483,7 @@ p14a7/max_ss = 7679
 p14a7/fs = +0.0x +1.0y
 p14a7/ss = -1.0x +0.0y
 p14a7/corner_x = 80.50000000000001
-p14a7/corner_y = 160.99999999999991
+p14a7/corner_y = 160.99999999999994
 p14a7/coffset = 0.0
 
 p15a0/dim1 = ss
@@ -1506,7 +1506,7 @@ p15a1/max_fs = 127
 p15a1/max_ss = 7807
 p15a1/fs = +0.0x +1.0y
 p15a1/ss = -1.0x +0.0y
-p15a1/corner_x = 476.4999999999999
+p15a1/corner_x = 476.49999999999994
 p15a1/corner_y = 3.9999999999999756
 p15a1/coffset = 0.0
 
