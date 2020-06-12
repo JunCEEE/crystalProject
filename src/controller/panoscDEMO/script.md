@@ -48,7 +48,7 @@ but we've still got bright spots arranged in arcs.
 
 We're doing the analysis with 'indexamajig', part of the CrystFEL suite of tools.
 Let's start it running. We're taking advantage of the powerful computer we're
-accessing to run on 20 cores, so it's done in just a few seconds. And it's
+accessing to run on 80 cores, so it's done in just a few seconds. And it's
 found crystals in all 200 images.
 
 Indexamajig records its output in a *stream file*. We can read that and examine the
